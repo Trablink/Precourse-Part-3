@@ -1,3 +1,152 @@
 body {
     background-color: white;
 }
+.header {
+    position: relative;
+    display: flex;
+    width: 100%;
+    font-family: arial;
+    font-size: 10pt;
+    top: 4px;
+}
+    .button {
+        position: absolute;
+        right: 30px;
+        border: none;
+        background-color: blue;
+        padding: 5px 10px;
+        color: white;
+        top: -4px;
+    }
+    .NineDots {
+        position: absolute;
+        right: 108px;
+        top: -4px;
+    }
+    .images {
+      position: absolute;
+      right: 150px;
+    
+    }
+    .gmail {
+      position: absolute;
+      right: 210px;
+    }
+    .about {
+      position: absolute;
+    }
+    .store {
+      position: absolute;
+      left: 60px
+    }
+
+.Logo {
+    width: 250;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+}
+.wrapper {
+    position: relative;
+    display: flex;
+    min-width: 100px;
+  }
+
+.search-icon {
+  position: relative;
+  top: 0px;
+  left: 26.5%;
+  width: 14px;
+  }
+
+  .mic-icon {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 8px;
+    right: 26.5%;
+    width: 10px;
+    cursor: pointer;
+   
+  }
+
+  .search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+    border-radius: 15px;
+    height: 30px;
+    width: 50%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5;
+  }
+
+  .search:hover, .search:focus {
+    border: 1.5px solid #009688;
+    background-color: white;
+  }
+.clicks {
+  position: relative;
+  margin: auto;
+  width: max-content;
+  display: block;
+  top: 20px;
+  font-size: 12px;
+  }
+  .gsearch {
+    font-family: Arial;
+    top: 10px;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    padding: 7px 10px;
+    color: black;
+    border-radius: 5px;
+  }
+  .lucky {
+    font-family: Arial;
+    top: 10px;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    padding: 7px 10px;
+    color: black;
+    border-radius: 5px;
+  }
+.bottombanner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(231, 231, 231);
+  font-family: arial;
+  font-size: 10pt;
+} .carbon {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+} .bottomline {
+  position: relative;
+    display: flex;
+    width: 100%;
+} .settings {
+    position: absolute;
+    right: 30px;
+} .terms {
+  position: absolute;
+  right: 100px;
+} .privacy {
+  position: absolute;
+  right: 160px;
+} .howsearch {
+  position: absolute;
+  left: 250px;
+} .business {
+  position: absolute;
+  left: 160px;
+} .advertising {
+  position: relative;
+  left: 50px;
+}

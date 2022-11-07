@@ -1,3 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
+  font-family: 'Roboto', sans-serif;
     background-color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+}
+.header {
+  opacity: 0.9 ;
+  display: flex;
+  position: sticky;
+  top: 0;
+  align-items: start;
+  height: 68px;
+  padding: 15px;
+  width: 100%;
+  color: white;
+  background-color: rgb(126, 1, 251);
+}
+  .iconleft {
+    position: absolute;
+    font-size: 28pt;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+  }
+  .headerlinks {
+    position: absolute;
+    left: 75px;
+    width: 390px;
+    top: 24px;  
+  }
+  .iconsright {
+    position: absolute;
+    vertical-align: middle;
+    max-height: 40px;
+    right: 100px;
+    padding-right: 20px;
+    border-right: 1px solid;
+    border-color: grey;
+    font-size: 12pt;
+  }
+    .fa-github {
+      position: relative;
+      bottom: 10px;
+    }
+    .fa-twitter {
+      position: relative;
+      bottom: 10px;
+      right: 2px;
+    }
+      .iconaloneone {
+        position: relative;
+        left: 10px;
+        padding-top: 0px;
+        bottom: 6px;
+        right: 3px;
+      }
+  .version { 
+    position: absolute;
+    right: 25px;
+    top: 13px
+  }
+  .fa-caret-down {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+
+  
+  }
+.allmain {
+  background-image: linear-gradient(to bottom right,rgb(150, 150, 249), white, white)
+}
+  .newinversion {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    height: 100px;
+    padding-top: 60px;
+  
+  }
+    .newin {
+      background-color: rgb(219, 247, 4);
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 20px;
+      border-radius: 10px;
+      padding: 5px 10px;
+    }
+    .newcontent {
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 20px;
+      color: grey;
+    }
+  .biglogo {
+    display:flex;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    .biglog {
+      color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+      font-size: 150px;
+    }
+  .introtext {
+    display: block;
+    width: 65%;
+    margin: auto;
+    text-align: center;
+  }
+    .buildfast {
+      font-size: 60px;
+    }
+    .buildfastdesc {
+      color: rgb(92, 91, 91);
+      font-size: 24px;
+    }
+.linksone {
+  width: 43%;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+  .dollarone {
+    display: flex;
+    width: 60%;
+    height: 60px;
+    background-color: rgb(227, 224, 224);
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+  
+  }
+    .dollar {
+margin-top: auto;
+margin-bottom: auto;
+font-size: 12pt;
+padding-right: 5px;
+    }
+    .npmone {
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: 13pt;
+    }
+    .fa-clipboard {
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: 20pt;
+      margin-left: auto;
+      padding-right: 20px;
+      cursor: pointer;
+    }
+  .readdocs {
+    position: relative;
+    width: 37%;
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(106, 106, 229);
+    margin-left: auto;
+    cursor: pointer;
+  }
+    .fa-book-open {
+      margin-top: auto;
+      margin-bottom: auto;
+      color: white;
+      margin-right: auto;
+      padding-left: 20px;
+      font-size: 20px;
+    }
+    .readdoc {
+      margin-top: auto;
+      margin-bottom: auto;
+      color: white;
+      font-size: 13pt;
+      margin-right: 60px;
+      padding-left: 0px;
+    }
+.currently {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  padding-top: 20px;
+  color: rgb(67, 67, 67);
+}
+  .dot {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .dlcurrent {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .oldversion {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .allrel {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+.gitlab {
+  display: flex;
+  padding: 10px;
+  width: 375px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(234, 234, 234);
+  border-radius: 10px;
+}
+  .gitlabimg {
+    width: 125px;
+    height: auto;
+  }
+  .gitwords {
+    padding: 10px;
+    color: grey;
+    font-size: 10pt;
+  }
+.codeimage {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(244, 244, 254);
+  border-radius: 10px;
+  display: flex;
+  width: 80px;
+  height: 80px;
+}
+  .simplecodeimg {
+    margin: auto;
+    color: blue;
+height: 50%;
+  }
+.getstarted {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 15pt;
+width: 790px;
+}
+  .getstart {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35pt;
+    padding-bottom: 20px;
+  }
+  .jumpright {
+    font-size: 16pt;
+  }
+.installdocs {
+  display: flex;
+  margin-top: 20px;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  color: blue;
+  width: fit-content;
+font-size: 14pt;
+}
+  .readinstall {
+    text-decoration: underline;
+  }
+  .fa-arrow-right {
+    padding-top: 3px;
+    padding-left: 3px;
+  }
+
+
+.footer {
+  display: flex;
+  background-color: rgb(236, 235, 241);
+height: 400px;
 }
